@@ -60,25 +60,24 @@ while True:
         image_data = open("test.bmp", "rb").read()
         result = pool.apply_async(func, args=(image_data,))
         try:
-            diic = result.get(timeout=10)
+            diic = result.get(timeout=None)
+            if (diic != []):
+                Yhat = RigeModel.predict(np.array(diic))
+                print("Yhat", Yhat)
+                rSquare = RigeModel.score(X, y)
+                print("R^2", rSquare)
+
         except:
             print("execption occured")
 
-        if (diic != []):
-            Yhat = RigeModel.predict(np.array(dic))
-            print("Yhat", Yhat)
-            rSquare = RigeModel.score(X, y)
-            print("R^2", rSquare)
 
         os.remove("test.bmp")
         key = cv2.waitKey(9)
         if key == 27:  # Esc key
             break
-        pool.close()
-        pool.join()
 
 cv2.destroyAllWindows()
 cv2.VideoCapture(0).release()
-# pool.close()
-# pool.join()
+pool.close()
+pool.join()
 
