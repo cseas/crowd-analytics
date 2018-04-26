@@ -5,4 +5,3 @@
 	Possible problem:
 	Using more images for analysis should mean more accuracy but since we're using max and min values, 
 	more images only increase the range, thus resulting in worse accuracy.
-2. Figure out how to capture frames from video stream and feed it to test folder.
