@@ -7,7 +7,13 @@ import time
 from collections import deque
 #import multiprocessing.pool as mpool
 import threading
-from Queue import Queue
+import sys
+is_py2 = sys.version[0] == '2'
+if is_py2:
+    from Queue import Queue
+else:
+    from queue import Queue
+
 #def test():
 que = Queue()
 array_rec = []
