@@ -19,6 +19,7 @@ h1=-1
 
 cap = cv2.VideoCapture(0)
 exit = 0
+
 def waste_facerec(img , array_rec):
     for rec in array_rec:
         w1 = rec["w1"]
@@ -33,26 +34,21 @@ def waste_facerec(img , array_rec):
             cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (0, 0, 255), 2)
     return img
 
-
-
 def facerec(img):
-    print "w1=", w1, "t1=", t1, "l1=", l1, "h1=", h1
+    print("w1=", w1, "t1=", t1, "l1=", l1, "h1=", h1)
     if yhatf > 0:
         cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
     else:
         cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (0, 0, 255), 2)
     return img
 
-
 def writeframe(img):
     out.write(img)
-
 
 def showframe():
     global cap
 
     # set the width and height, and UNSUCCESSFULLY set the exposure time
-
     cap.set(3, 1280)
     cap.set(4, 1024)
     cap.set(15, 0.1)
@@ -69,12 +65,8 @@ def showframe():
         cv2.imshow("input", img)
         global que
         que.put(img)
-        print "size=", que.qsize()
-
+        print("size=", que.qsize())
         # writes image test.bmp to disk
-
-
-
         #done = time.time()
 
         key = cv2.waitKey(10)
@@ -82,13 +74,12 @@ def showframe():
             break
     cv2.destroyAllWindows()
     cv2.VideoCapture(0).release()
-    print "finished camera "
+    print("finished camera")
     global exit
     exit = 1
 
-
 def func(image_data):
-    print "in func function"
+    print("in func function")
     start = time.time()
     response = requests.post(face_api_url, params=params, headers=headers, data=image_data)
     #print response
@@ -96,13 +87,13 @@ def func(image_data):
     analysis = response.json()
     #print "hi"
     done =time.time()
-    print "func"
-    print done - start
-    print "func"
+    print("func")
+    print(done - start)
+    print("func")
     diic = []
     vedio = []
     for i in analysis:
-        print i
+        print(i)
         vedio.append({"faceRectangle":i["faceRectangle"]})
         dic = []
         dic.insert(len(dic), i["faceAttributes"]["emotion"]["anger"])
@@ -118,7 +109,7 @@ def func(image_data):
     #print time.time()
     return diic , vedio
 
-
+# api code
 subscription_key = "02726400482345229652709041c698ba"
 assert subscription_key
 
@@ -130,8 +121,7 @@ params = {
     'returnFaceAttributes': 'emotion',
 }
 
-
-
+# scikit code
 X = np.loadtxt('Xval.txt', dtype=float)
 y = np.loadtxt('yval.txt', dtype=int)
 
@@ -160,30 +150,27 @@ while True:
         if que.qsize() >= 16:
             img = que.get()
 
-
-
             if not que.empty():
 
-                print "----------------------------------------"
-                print que.qsize()
+                print("----------------------------------------")
+                print(que.qsize())
 
-                print "----------------------------------------"
+                print("----------------------------------------")
                 #img = que.get()
                 cv2.imwrite("test.bmp", img)
                 image_data = open("test.bmp", "rb").read()
 
-                diic , vedio = func(image_data)
+                diic , video = func(image_data)
                 done = time.time()
                 #print done - start
-                print "got diic"
+                print("got diic")
 
                 if (diic != []):
                     Yhat = RigeModel.predict(np.array(diic))
                     count = 0
                     array_rec = []
-                    for one in vedio:
+                    for one in video:
                         rec=one["faceRectangle"]
-
 
                         yhatf = Yhat[count]
                         w1 = rec["width"]
@@ -193,7 +180,6 @@ while True:
                         array_rec.append({"w1":w1 ,"t1":t1 ,"h1":h1 ,"l1":l1, "yhat":yhatf })
                         img = facerec(img)
                         count = count + 1
-
 
                     #framecount+=1
                     writeframe(img)
@@ -218,20 +204,11 @@ while True:
         else:
             #print "queue is empty"
             if exit == 1:
-                print "process finished"
+                print("process finished")
                 break
-
-
-
-
 
     #except:
         #w = 0
         #print("exception occured")
 thread1.join()
 out.release()
-#t2.join()
-
-
-
-
