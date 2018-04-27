@@ -7,20 +7,57 @@ import time
 from collections import deque
 #import multiprocessing.pool as mpool
 import threading
+from Queue import Queue
 #def test():
-queue = deque([])
+que = Queue()
+array_rec = []
+yhatf=2
+w1=-1
+t1=-1
+l1=-1
+h1=-1
+
 cap = cv2.VideoCapture(0)
 exit = 0
+def waste_facerec(img , array_rec):
+    for rec in array_rec:
+        w1 = rec["w1"]
+        t1 = rec["t1"]
+        h1 = rec["h1"]
+        l1 = rec["l1"]
+        yhatf = rec["yhat"]
+
+        if yhatf > 0:
+            cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
+        else:
+            cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (0, 0, 255), 2)
+    return img
+
+
+
+def facerec(img):
+    print "w1=", w1, "t1=", t1, "l1=", l1, "h1=", h1
+    if yhatf > 0:
+        cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
+    else:
+        cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (0, 0, 255), 2)
+    return img
+
+
+def writeframe(img):
+    out.write(img)
+
 
 def showframe():
     global cap
 
     # set the width and height, and UNSUCCESSFULLY set the exposure time
+
     cap.set(3, 1280)
     cap.set(4, 1024)
     cap.set(15, 0.1)
     #i = 0
-    start= time.time()
+    #start= time.time()
     while True:
         #i = i + 1
         #print i
@@ -30,17 +67,16 @@ def showframe():
         # frame show function
         # cv2.imshow("thresholded", imgray*thresh2)
         cv2.imshow("input", img)
+        global que
+        que.put(img)
+        print "size=", que.qsize()
 
         # writes image test.bmp to disk
 
 
 
-        done = time.time()
-        if done - start > 1.0:
-            global queue
-            queue.append(img)
-            start= time.time()
-            #print "saved image"
+        #done = time.time()
+
         key = cv2.waitKey(10)
         if key == 27:  # Esc key
             break
@@ -79,7 +115,7 @@ def func(image_data):
         dic.insert(len(dic), i["faceAttributes"]["emotion"]["surprise"])
         diic.insert(len(diic), dic)
     print(diic)
-    print time.time()
+    #print time.time()
     return diic , vedio
 
 
@@ -95,15 +131,16 @@ params = {
 }
 
 
+
 X = np.loadtxt('Xval.txt', dtype=float)
 y = np.loadtxt('yval.txt', dtype=int)
 
 RigeModel = Ridge(alpha = 0.001)
 RigeModel.fit(X, y)
 #pool = mpool.ThreadPool(10)
-t1 = threading.Thread(target=showframe, args=())
+thread1 = threading.Thread(target=showframe, args=())
 #t2 = threading.Thread(target=test, args=())
-t1.start()
+thread1.start()
 #t2.start()
 
 frame_width = int(cap.get(3))
@@ -111,51 +148,90 @@ frame_height = int(cap.get(4))
 
 # Define the codec and create VideoWriter object.The output is stored in 'outpy.avi' file.
 out = cv2.VideoWriter('outpy.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (frame_width, frame_height))
-
+framecount=0
+start = time.time()
+i=50
 while True:
-    try:
+    #try:
         #print "testing"
-        start = time.time()
-        if exit == 1:
-            break
-        if queue:
-            img = queue.popleft()
-            cv2.imwrite("test.bmp", img)
-            image_data = open("test.bmp", "rb").read()
+        #done = time.time()
+        #print "size=", que.qsize()
 
-            diic , vedio = func(image_data)
-            done = time.time()
-            print done - start
-            #print "got diic"
-            if (diic != []):
-                Yhat = RigeModel.predict(np.array(diic))
-                count = 0
-                for one in vedio:
-                    rec=one["faceRectangle"]
-                    yhatf = one["yhat"]
-                    x1 = rec["width"]
-                    y1 = rec["top"]
-                    w1 = rec["height"]
-                    h1 = rec["left"]
-                    if Yhat[count] >0:
-                        cv2.rectangle(img, (x1, y1), (x1 + w1, y1 + h1), (255, 0, 0), 2)
-                    else:
-                        cv2.rectangle(img, (x1, y1), (x1 + w1, y1 + h1), (0, 0, 255), 2)
+        if que.qsize() >= 16:
+            img = que.get()
 
-                out.write(img)
 
-                print("Yhat", Yhat)
-                rSquare = RigeModel.score(X, y)
-                print("R^2", rSquare)
-            os.remove("test.bmp")
-            print vedio
 
-    except:
-        w = 0
-        # print("exception occured")
-t1.join()
+            if not que.empty():
+
+                print "----------------------------------------"
+                print que.qsize()
+
+                print "----------------------------------------"
+                #img = que.get()
+                cv2.imwrite("test.bmp", img)
+                image_data = open("test.bmp", "rb").read()
+
+                diic , vedio = func(image_data)
+                done = time.time()
+                #print done - start
+                print "got diic"
+
+                if (diic != []):
+                    Yhat = RigeModel.predict(np.array(diic))
+                    count = 0
+                    array_rec = []
+                    for one in vedio:
+                        rec=one["faceRectangle"]
+
+
+                        yhatf = Yhat[count]
+                        w1 = rec["width"]
+                        t1 = rec["top"]
+                        h1 = rec["height"]
+                        l1 = rec["left"]
+                        array_rec.append({"w1":w1 ,"t1":t1 ,"h1":h1 ,"l1":l1, "yhat":yhatf })
+                        img = facerec(img)
+                        count = count + 1
+
+
+                    #framecount+=1
+                    writeframe(img)
+
+                    #print "framecount",framecount
+
+                    print("Yhat", Yhat)
+                    rSquare = RigeModel.score(X, y)
+                    print("R^2", rSquare)
+
+                #cv2.rectangle(img, (50, 50), (50 + 50, 50 + 50), (255, 0, 0), 2)
+
+                #out.write(img)
+                if w1 != -1:
+                    for cc in range(15):
+                        img = que.get()
+                        waste_facerec(img,array_rec)
+                        writeframe(img)
+
+                os.remove("test.bmp")
+                #print vedio
+        else:
+            #print "queue is empty"
+            if exit == 1:
+                print "process finished"
+                break
+
+
+
+
+
+    #except:
+        #w = 0
+        #print("exception occured")
+thread1.join()
 out.release()
 #t2.join()
+
 
 
 
