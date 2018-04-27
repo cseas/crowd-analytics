@@ -7,6 +7,8 @@ import time
 from collections import deque
 #import multiprocessing.pool as mpool
 import threading
+
+# check for Python version to decide which queue module to import
 import sys
 is_py2 = sys.version[0] == '2'
 if is_py2:
@@ -97,10 +99,10 @@ def func(image_data):
     print(done - start)
     print("func")
     diic = []
-    vedio = []
+    video = []
     for i in analysis:
         print(i)
-        vedio.append({"faceRectangle":i["faceRectangle"]})
+        video.append({"faceRectangle":i["faceRectangle"]})
         dic = []
         dic.insert(len(dic), i["faceAttributes"]["emotion"]["anger"])
         dic.insert(len(dic), i["faceAttributes"]["emotion"]["contempt"])
@@ -113,7 +115,7 @@ def func(image_data):
         diic.insert(len(diic), dic)
     print(diic)
     #print time.time()
-    return diic , vedio
+    return diic , video
 
 # api code
 subscription_key = "02726400482345229652709041c698ba"
@@ -206,7 +208,7 @@ while True:
                         writeframe(img)
 
                 os.remove("test.bmp")
-                #print vedio
+                #print video
         else:
             #print "queue is empty"
             if exit == 1:
