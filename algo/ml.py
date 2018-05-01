@@ -16,6 +16,10 @@ if is_py2:
 else:
     from queue import Queue
 
+# creating arrays to save in graphx and graphy text files
+graphXarr = np.empty((0, 1), int)
+graphYarr = np.empty((0, 1), int)
+
 #def test():
 que = Queue()
 array_rec = []
@@ -60,21 +64,21 @@ def showframe():
     cap.set(3, 1280)
     cap.set(4, 1024)
     cap.set(15, 0.1)
-    #i = 0
-    #start= time.time()
+
     while True:
         #i = i + 1
         #print i
         ret, img = cap.read()
+
         img = cv2.flip(img, 1)
         #print img
         # frame show function
         # cv2.imshow("thresholded", imgray*thresh2)
         cv2.imshow("input", img)
         global que
-        que.put(img)
-        print("size=", que.qsize())
+        # print("size=", que.qsize())
         # writes image test.bmp to disk
+        que.put(img)
         #done = time.time()
 
         key = cv2.waitKey(10)
@@ -88,16 +92,15 @@ def showframe():
 
 def func(image_data):
     print("in func function")
-    start = time.time()
+
     response = requests.post(face_api_url, params=params, headers=headers, data=image_data)
     #print response
     response.raise_for_status()
     analysis = response.json()
     #print "hi"
-    done =time.time()
+
     print("func")
-    print(done - start)
-    print("func")
+
     diic = []
     video = []
     for i in analysis:
@@ -147,7 +150,7 @@ frame_height = int(cap.get(4))
 # Define the codec and create VideoWriter object.The output is stored in 'outpy.avi' file.
 out = cv2.VideoWriter('outpy.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (frame_width, frame_height))
 framecount=0
-start = time.time()
+
 i=50
 while True:
     #try:
@@ -166,11 +169,14 @@ while True:
                 print("----------------------------------------")
                 #img = que.get()
                 cv2.imwrite("test.bmp", img)
+
+                # store time of capturing frame in graphx.txt
+                graphXarr = np.insert(graphXarr, len(graphXarr), time.time())
+
                 image_data = open("test.bmp", "rb").read()
 
                 diic , video = func(image_data)
-                done = time.time()
-                #print done - start
+
                 print("got diic")
 
                 if (diic != []):
@@ -220,3 +226,7 @@ while True:
         #print("exception occured")
 thread1.join()
 out.release()
+
+# save created numpy arrays in respective text files to create graph
+np.savetxt('graphx.txt', graphXarr, fmt='%d')
+# np.savetxt('graphy.txt', graphYarr, fmt='%d')

@@ -22,7 +22,8 @@ X = np.empty((0, 8), float)
 y = np.empty((0, 1), float)
 
 # traverse file
-indir = '/home/abhijeet/PycharmProjects/faceapi/algo'
+# indir = '/home/abhijeet/Documents/faceapi/algo'
+indir = '/home/abhijeet/Documents/github/crowd-analytics/algo'
 #for reoot, dirs, filenames in os.walk(indir):
 for dirs,dirlist,filenames in os.walk("."):
     print(dirs)
@@ -31,7 +32,7 @@ for dirs,dirlist,filenames in os.walk("."):
         if filename.endswith(".jpeg") or filename.endswith(".jpg") or filename.endswith(".png"):
             # print(os.path.join(directory, filename))
             #print(filename)
-            #image_data = open(indir + '/' + filename, "rb").read()
+            # image_data = open(indir + '/' + filename, "rb").read()
             image_data = open(indir + '/' + dirs.split('/')[1]+'/'+filename, "rb").read()
 
             response = requests.post(face_api_url, params=params, headers=headers, data=image_data)
