@@ -49,8 +49,10 @@ def waste_facerec(img , array_rec):
 def facerec(img):
     print("w1=", w1, "t1=", t1, "l1=", l1, "h1=", h1)
     if yhatf > 0:
+        # blue rectangle
         cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
     else:
+        # red rectangle
         cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (0, 0, 255), 2)
     return img
 
@@ -118,7 +120,7 @@ def func(image_data):
         diic.insert(len(diic), dic)
     print(diic)
     #print time.time()
-    return diic , video
+    return diic, video
 
 # api code
 subscription_key = "02726400482345229652709041c698ba"
@@ -175,17 +177,27 @@ while True:
 
                 image_data = open("test.bmp", "rb").read()
 
-                diic , video = func(image_data)
+                diic, video = func(image_data)
 
                 print("got diic")
 
                 if (diic != []):
                     Yhat = RigeModel.predict(np.array(diic))
+
+                    # store number of people bored in graphyval temporarily and insert it to numpy array for every frame captured
+                    graphyval = 0
+                    for i in Yhat:
+                        if i > 0:
+                            graphyval += 1
+                    # insert into numpy array
+                    graphYarr = np.insert(graphYarr, len(graphYarr), graphyval)
+
                     count = 0
                     array_rec = []
                     for one in video:
-                        rec=one["faceRectangle"]
+                        rec = one["faceRectangle"]
 
+                        # positive value of yhatf means that person can be categorised as bored
                         yhatf = Yhat[count]
                         w1 = rec["width"]
                         t1 = rec["top"]
@@ -229,4 +241,4 @@ out.release()
 
 # save created numpy arrays in respective text files to create graph
 np.savetxt('graphx.txt', graphXarr, fmt='%d')
-# np.savetxt('graphy.txt', graphYarr, fmt='%d')
+np.savetxt('graphy.txt', graphYarr, fmt='%d')
