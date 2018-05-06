@@ -13,5 +13,8 @@ for i in range(len(x)):
     x[i] -= temp
 
 # plot graph
+plt.ylabel('Number of uninterested audience')
+plt.xlabel('Time (sec)')
 plt.plot(x, y, marker='x')
+plt.savefig('graph.png')
 plt.show()
