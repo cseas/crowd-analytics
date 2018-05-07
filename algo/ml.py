@@ -1,11 +1,9 @@
 import numpy as np
 import os
 import requests
-from sklearn.linear_model import Ridge
+from sklearn import svm
 import cv2
 import time
-from collections import deque
-#import multiprocessing.pool as mpool
 import threading
 
 # check for Python version to decide which queue module to import
@@ -20,7 +18,7 @@ else:
 graphXarr = np.empty((0, 1), int)
 graphYarr = np.empty((0, 1), int)
 
-#def test():
+# create queue to store video frames
 que = Queue()
 array_rec = []
 yhatf=2
@@ -68,12 +66,10 @@ def showframe():
     cap.set(15, 0.1)
 
     while True:
-        #i = i + 1
-        #print i
         ret, img = cap.read()
 
         img = cv2.flip(img, 1)
-        #print img
+
         # frame show function
         # cv2.imshow("thresholded", imgray*thresh2)
         cv2.imshow("input", img)
@@ -81,7 +77,6 @@ def showframe():
         # print("size=", que.qsize())
         # writes image test.bmp to disk
         que.put(img)
-        #done = time.time()
 
         key = cv2.waitKey(10)
         if key == 27:  # Esc key
@@ -99,7 +94,6 @@ def func(image_data):
     #print response
     response.raise_for_status()
     analysis = response.json()
-    #print "hi"
 
     print("func")
 
@@ -119,7 +113,7 @@ def func(image_data):
         dic.insert(len(dic), i["faceAttributes"]["emotion"]["surprise"])
         diic.insert(len(diic), dic)
     print(diic)
-    #print time.time()
+
     return diic, video
 
 # api code
@@ -138,13 +132,10 @@ params = {
 X = np.loadtxt('Xval.txt', dtype=float)
 y = np.loadtxt('yval.txt', dtype=int)
 
-RigeModel = Ridge(alpha = 0.001)
-RigeModel.fit(X, y)
-#pool = mpool.ThreadPool(10)
+clf = svm.SVC()
+clf.fit(X, y)
 thread1 = threading.Thread(target=showframe, args=())
-#t2 = threading.Thread(target=test, args=())
 thread1.start()
-#t2.start()
 
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
@@ -155,87 +146,75 @@ framecount=0
 
 i=50
 while True:
-    #try:
-        #print "testing"
-        #done = time.time()
-        #print "size=", que.qsize()
+    if que.qsize() >= 16:
+        img = que.get()
 
-        if que.qsize() >= 16:
-            img = que.get()
+        if not que.empty():
 
-            if not que.empty():
+            print("----------------------------------------")
+            print(que.qsize())
 
-                print("----------------------------------------")
-                print(que.qsize())
+            print("----------------------------------------")
 
-                print("----------------------------------------")
-                #img = que.get()
-                cv2.imwrite("test.bmp", img)
+            cv2.imwrite("test.bmp", img)
 
-                # store time of capturing frame in graphx.txt
-                graphXarr = np.insert(graphXarr, len(graphXarr), time.time())
+            # store time of capturing frame in graphx.txt
+            graphXarr = np.insert(graphXarr, len(graphXarr), time.time())
 
-                image_data = open("test.bmp", "rb").read()
+            image_data = open("test.bmp", "rb").read()
 
-                diic, video = func(image_data)
+            diic, video = func(image_data)
 
-                print("got diic")
+            print("got diic")
 
-                if (diic != []):
-                    Yhat = RigeModel.predict(np.array(diic))
+            if (diic != []):
+                Yhat = clf.predict(np.array(diic))
 
-                    # store number of people bored in graphyval temporarily and insert it to numpy array for every frame captured
-                    graphyval = 0
-                    for i in Yhat:
-                        if i > 0:
-                            graphyval += 1
-                    # insert into numpy array
-                    graphYarr = np.insert(graphYarr, len(graphYarr), graphyval)
+                # store number of people bored in graphyval temporarily and insert it to numpy array for every frame captured
+                graphyval = 0
+                for i in Yhat:
+                    if i > 0:
+                        graphyval += 1
+                # insert into numpy array
+                graphYarr = np.insert(graphYarr, len(graphYarr), graphyval)
 
-                    count = 0
-                    array_rec = []
-                    for one in video:
-                        rec = one["faceRectangle"]
+                count = 0
+                array_rec = []
+                for one in video:
+                    rec = one["faceRectangle"]
 
-                        # positive value of yhatf means that person can be categorised as bored
-                        yhatf = Yhat[count]
-                        w1 = rec["width"]
-                        t1 = rec["top"]
-                        h1 = rec["height"]
-                        l1 = rec["left"]
-                        array_rec.append({"w1":w1 ,"t1":t1 ,"h1":h1 ,"l1":l1, "yhat":yhatf })
-                        img = facerec(img)
-                        count = count + 1
+                    # positive value of yhatf means that person can be categorised as bored
+                    yhatf = Yhat[count]
+                    w1 = rec["width"]
+                    t1 = rec["top"]
+                    h1 = rec["height"]
+                    l1 = rec["left"]
+                    array_rec.append({"w1":w1 ,"t1":t1 ,"h1":h1 ,"l1":l1, "yhat":yhatf })
+                    img = facerec(img)
+                    count = count + 1
 
-                    #framecount+=1
+                writeframe(img)
+
+                print("Yhat", Yhat)
+                rSquare = clf.score(X, y)
+                print("R^2", rSquare)
+
+            #cv2.rectangle(img, (50, 50), (50 + 50, 50 + 50), (255, 0, 0), 2)
+
+            if w1 != -1:
+                for cc in range(15):
+                    img = que.get()
+                    waste_facerec(img,array_rec)
                     writeframe(img)
 
-                    #print "framecount",framecount
+            os.remove("test.bmp")
 
-                    print("Yhat", Yhat)
-                    rSquare = RigeModel.score(X, y)
-                    print("R^2", rSquare)
+    else:
+        #print("queue is empty")
+        if exit == 1:
+            print("process finished")
+            break
 
-                #cv2.rectangle(img, (50, 50), (50 + 50, 50 + 50), (255, 0, 0), 2)
-
-                #out.write(img)
-                if w1 != -1:
-                    for cc in range(15):
-                        img = que.get()
-                        waste_facerec(img,array_rec)
-                        writeframe(img)
-
-                os.remove("test.bmp")
-                #print video
-        else:
-            #print "queue is empty"
-            if exit == 1:
-                print("process finished")
-                break
-
-    #except:
-        #w = 0
-        #print("exception occured")
 thread1.join()
 out.release()
 
