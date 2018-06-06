@@ -14,14 +14,14 @@ headers = { 'Ocp-Apim-Subscription-Key': subscription_key, "Content-Type": "appl
 params = {
     'returnFaceId': 'false',
     'returnFaceLandmarks': 'false',
-    'returnFaceAttributes': 'emotion',
+    'returnFaceAttributes': 'emotion,smile,headPose'
 }
 
-X = np.empty((0, 8), float)
+X = np.empty((0, 10), float)
 y = np.empty((0, 1), float)
 
 # dataset folder
-indir = '/home/abhijeet/Documents/github/crowd-analytics/algo'
+indir = '/home/abhijeet/Documents/github/crowd-analytics/algo/'
 
 for dirs,dirlist,filenames in os.walk("."):
     print(dirs)
@@ -39,6 +39,7 @@ for dirs,dirlist,filenames in os.walk("."):
 
             for i in analysis:
 
+                #print(i)
                 dic = []
 
                 dic.insert(len(dic), i["faceAttributes"]["emotion"]["anger"])
@@ -49,6 +50,8 @@ for dirs,dirlist,filenames in os.walk("."):
                 dic.insert(len(dic), i["faceAttributes"]["emotion"]["neutral"])
                 dic.insert(len(dic), i["faceAttributes"]["emotion"]["sadness"])
                 dic.insert(len(dic), i["faceAttributes"]["emotion"]["surprise"])
+                dic.insert(len(dic), i["faceAttributes"]["smile"])
+                dic.insert(len(dic), i["faceAttributes"]["headPose"]["roll"])
 
                 # convert list to numpy array
                 arr = np.array(dic)
@@ -60,7 +63,7 @@ for dirs,dirlist,filenames in os.walk("."):
                 # print("---",dirs[2:],"----")
                 # print(type(dirs))
 
-                if str(dirs[2:]) == "bored":
+                if str(dirs[2:]) == "bored" or str(dirs[2:]) == "openmouth":
                     y = np.insert(y, len(y), 1)
                 else:
                     y = np.insert(y, len(y), -1)

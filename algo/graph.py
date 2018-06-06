@@ -16,5 +16,5 @@ for i in range(len(x)):
 plt.ylabel('Number of uninterested audience')
 plt.xlabel('Time (sec)')
 plt.plot(x, y, marker='x')
-plt.savefig('graph.png')
+plt.savefig('../graph.png')
 plt.show()

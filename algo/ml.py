@@ -111,6 +111,9 @@ def func(image_data):
         dic.insert(len(dic), i["faceAttributes"]["emotion"]["neutral"])
         dic.insert(len(dic), i["faceAttributes"]["emotion"]["sadness"])
         dic.insert(len(dic), i["faceAttributes"]["emotion"]["surprise"])
+        dic.insert(len(dic), i["faceAttributes"]["smile"])
+        dic.insert(len(dic), i["faceAttributes"]["headPose"]["roll"])
+
         diic.insert(len(diic), dic)
     print(diic)
 
@@ -125,7 +128,7 @@ face_api_url = 'https://southeastasia.api.cognitive.microsoft.com/face/v1.0/dete
 headers = { 'Ocp-Apim-Subscription-Key': subscription_key, "Content-Type": "application/octet-stream"}
 params = {
     'returnFaceLandmarks': 'false',
-    'returnFaceAttributes': 'emotion',
+    'returnFaceAttributes': 'emotion,smile,headPose'
 }
 
 # scikit code
