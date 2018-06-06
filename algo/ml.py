@@ -47,11 +47,11 @@ def waste_facerec(img , array_rec):
 def facerec(img):
     print("w1=", w1, "t1=", t1, "l1=", l1, "h1=", h1)
     if yhatf > 0:
-        # blue rectangle
-        cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
-    else:
-        # red rectangle
+        # if bored, then red rectangle
         cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (0, 0, 255), 2)
+    else:
+    	# blue rectangle
+        cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
     return img
 
 def writeframe(img):
