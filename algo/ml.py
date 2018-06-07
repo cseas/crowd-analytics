@@ -17,7 +17,8 @@ else:
 # creating arrays to save in graphx and graphy text files
 graphXarr = np.empty((0, 1), int)
 graphYarr = np.empty((0, 1), int)
-
+with open('test.txt','a') as myfile:
+    myfile.write("anger contempt disgust fear happiness neutral sadness surprise smile roll\n")
 # create queue to store video frames
 que = Queue()
 array_rec = []
@@ -39,23 +40,39 @@ def waste_facerec(img , array_rec):
         yhatf = rec["yhat"]
 
         if yhatf > 0:
-            cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
-        else:
             cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (0, 0, 255), 2)
+        else:
+            cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
     return img
 
 def facerec(img):
     print("w1=", w1, "t1=", t1, "l1=", l1, "h1=", h1)
     if yhatf > 0:
         # if bored, then red rectangle
+        with open('test.txt','a') as myfile:
+            myfile.write("bored\n")
+
         cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (0, 0, 255), 2)
     else:
     	# blue rectangle
+        with open('test.txt','a') as myfile:
+            myfile.write("not bored\n")
+
         cv2.rectangle(img, (l1, t1), (l1 + w1, t1 + h1), (255, 0, 0), 2)
     return img
 
 def writeframe(img):
-    out.write(img)
+    for i in range(6):
+        out.write(img)
+
+# function to increase opencv frame brightness
+def adjust_gamma(image, gamma=1.0):
+
+   invGamma = 1.0 / gamma
+   table = np.array([((i / 255.0) ** invGamma) * 255
+      for i in np.arange(0, 256)]).astype("uint8")
+
+   return cv2.LUT(image, table)
 
 def showframe():
     global cap
@@ -69,6 +86,11 @@ def showframe():
         ret, img = cap.read()
 
         img = cv2.flip(img, 1)
+
+        #increase brightness
+        gamma = 1.8
+        img = adjust_gamma(img, gamma=gamma)
+
 
         # frame show function
         # cv2.imshow("thresholded", imgray*thresh2)
@@ -100,22 +122,37 @@ def func(image_data):
     diic = []
     video = []
     for i in analysis:
-        print(i)
-        video.append({"faceRectangle":i["faceRectangle"]})
-        dic = []
-        dic.insert(len(dic), i["faceAttributes"]["emotion"]["anger"])
-        dic.insert(len(dic), i["faceAttributes"]["emotion"]["contempt"])
-        dic.insert(len(dic), i["faceAttributes"]["emotion"]["disgust"])
-        dic.insert(len(dic), i["faceAttributes"]["emotion"]["fear"])
-        dic.insert(len(dic), i["faceAttributes"]["emotion"]["happiness"])
-        dic.insert(len(dic), i["faceAttributes"]["emotion"]["neutral"])
-        dic.insert(len(dic), i["faceAttributes"]["emotion"]["sadness"])
-        dic.insert(len(dic), i["faceAttributes"]["emotion"]["surprise"])
-        dic.insert(len(dic), i["faceAttributes"]["smile"])
-        dic.insert(len(dic), i["faceAttributes"]["headPose"]["roll"])
+        with open('test.txt','a') as myfile:
+            
+            print(i)
+            video.append({"faceRectangle":i["faceRectangle"]})
+            dic = []
+            dic.insert(len(dic), i["faceAttributes"]["emotion"]["anger"])
+            myfile.write("anger="+str(i["faceAttributes"]["emotion"]["anger"])+"\t")
+        
+            dic.insert(len(dic), i["faceAttributes"]["emotion"]["contempt"])
+            dic.insert(len(dic), i["faceAttributes"]["emotion"]["disgust"])
+            dic.insert(len(dic), i["faceAttributes"]["emotion"]["fear"])
+            dic.insert(len(dic), i["faceAttributes"]["emotion"]["happiness"])
+            dic.insert(len(dic), i["faceAttributes"]["emotion"]["neutral"])
+            dic.insert(len(dic), i["faceAttributes"]["emotion"]["sadness"])
+            dic.insert(len(dic), i["faceAttributes"]["emotion"]["surprise"])
+            dic.insert(len(dic), i["faceAttributes"]["smile"])
+            dic.insert(len(dic), abs(i["faceAttributes"]["headPose"]["roll"]))
 
-        diic.insert(len(diic), dic)
+            myfile.write("contempt="+str(i["faceAttributes"]["emotion"]["contempt"])+"\t")
+            myfile.write("disgust="+str(i["faceAttributes"]["emotion"]["disgust"])+"\t")
+            myfile.write("fear="+str(i["faceAttributes"]["emotion"]["fear"])+"\t")
+            myfile.write("happiness="+str(i["faceAttributes"]["emotion"]["happiness"])+"\t")
+            myfile.write("neutral="+str(i["faceAttributes"]["emotion"]["neutral"])+"\t")
+            myfile.write("sadness="+str(i["faceAttributes"]["emotion"]["sadness"])+"\t")
+            myfile.write("surprise="+str(i["faceAttributes"]["emotion"]["surprise"])+"\t")
+            myfile.write("smile="+str(i["faceAttributes"]["smile"])+"\n")
+            myfile.write("roll="+str(abs(i["faceAttributes"]["headPose"]["roll"]))+"\n")
+        
+            diic.insert(len(diic), dic)
     print(diic)
+    
 
     return diic, video
 
@@ -208,7 +245,7 @@ while True:
                 for cc in range(15):
                     img = que.get()
                     waste_facerec(img,array_rec)
-                    writeframe(img)
+                    #writeframe(img)
 
             os.remove("test.bmp")
 

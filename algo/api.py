@@ -51,7 +51,7 @@ for dirs,dirlist,filenames in os.walk("."):
                 dic.insert(len(dic), i["faceAttributes"]["emotion"]["sadness"])
                 dic.insert(len(dic), i["faceAttributes"]["emotion"]["surprise"])
                 dic.insert(len(dic), i["faceAttributes"]["smile"])
-                dic.insert(len(dic), i["faceAttributes"]["headPose"]["roll"])
+                dic.insert(len(dic), abs(i["faceAttributes"]["headPose"]["roll"]))
 
                 # convert list to numpy array
                 arr = np.array(dic)
