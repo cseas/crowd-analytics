@@ -1,0 +1,507 @@
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.3
+BM29HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.1
+BM08HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.0
+AM15HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.3
+AF22HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.7
+BF12HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.5
+BF24HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=4.0
+AM28HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.0
+BF15HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.7
+AM26HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.2
+BM18HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.2
+AF02HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.7
+AF26HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.0
+AF30HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.5
+BM12HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.6
+BF07HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.6
+KM.HA3.6.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.0
+AF14HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.999 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.1
+KL.HA3.160.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.9
+AF32HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.6
+AM01HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.2
+AF06HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+BM22HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.7
+YM.HA3.54.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.1
+BM04HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.4
+AF19HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.998 neutral=0.0 sadness=0.0 surprise=0.002 roll=1.7
+AF31HAS.JPG
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.98 neutral=0.019 sadness=0.0 surprise=0.0 roll=4.4
+TM.HA3.182.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.5
+BM26HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.4
+AM07HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.0
+AF25HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.998 neutral=0.0 sadness=0.0 surprise=0.002 roll=0.5
+KA.HA2.30.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.8
+BF17HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.5
+AF20HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.0
+AM13HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.3
+BM28HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.5
+AF27HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.3
+AM35HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.0
+BM05HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.2
+BM07HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.3
+BF27HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.2
+BM21HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.3
+AM34HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.8
+BM03HAS.JPG
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.008 neutral=0.987 sadness=0.0 surprise=0.004 roll=4.0
+KA.HA4.32.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.9
+BF21HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.9
+AF24HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+BM35HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.8
+BF19HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.2
+BF26HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+BF20HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.7
+AM25HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.6
+BF04HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.8
+AF35HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.5
+AF17HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.1
+BM34HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.1
+KM.HA4.7.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+AF04HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.0
+AM24HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.995 neutral=0.005 sadness=0.0 surprise=0.0 roll=0.5
+AF12HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.805 neutral=0.195 sadness=0.0 surprise=0.0 roll=0.9
+KR.SA3.79.tiff.png
+
+anger=0.0 contempt=0.007 disgust=0.0 fear=0.0 happiness=0.022 neutral=0.969 sadness=0.002 surprise=0.0 roll=1.9
+UY.HA2.138.tiff.png
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.01 neutral=0.986 sadness=0.0 surprise=0.0 roll=1.4
+UY.HA1.137.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.998 neutral=0.002 sadness=0.0 surprise=0.0 roll=0.4
+KA.HA1.29.tiff.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.966 neutral=0.018 sadness=0.0 surprise=0.015 roll=2.7
+KA.HA3.31.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.9
+BM14HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.5
+BF08HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.8
+AM30HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.5
+BF22HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+AM02HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.3
+AF08HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.1
+BF11HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.2
+BF05HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.4
+BF13HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.2
+BF02HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.9
+KM.HA2.5.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.8
+AF01HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.8
+BF23HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.995 neutral=0.004 sadness=0.0 surprise=0.0 roll=2.2
+BF16HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.4
+BF32HAS.JPG
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.764 neutral=0.235 sadness=0.0 surprise=0.0 roll=1.0
+TM.HA1.180.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.2
+BM27HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.6
+AF07HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.1
+AF29HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.6
+AF03HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.5
+AF33HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.7
+BM16HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.5
+AF18HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.6
+AM16HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.2
+AM14HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.8
+BM01HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+BM30HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.7
+AF28HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.2
+AM20HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.5
+MK.HA2.117.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.5
+BM10HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.5
+AM22HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.768 neutral=0.231 sadness=0.0 surprise=0.0 roll=1.8
+KR.HA1.74.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+BM24HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.4
+BM32HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.6
+AF09HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.6
+AM23HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.6
+AM11HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.999 neutral=0.001 sadness=0.0 surprise=0.0 roll=0.2
+AM33HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.9
+YM.HA2.53.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.5
+AM06HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+AM29HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.1
+BF25HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.6
+AM04HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.5
+AM32HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.1
+BF29HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.0
+AF11HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.9
+BM13HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.6
+BF14HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.6
+NA.HA2.203.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.7
+BF34HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.2
+NA.HA3.204.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.6
+AM10HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.3
+BM19HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.8
+BM33HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.3
+AM31HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.2
+BF01HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.1
+AM05HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.2
+AF21HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.9
+AF13HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.5
+AM09HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.7
+BF33HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.1
+BM31HAS.JPG
+
+anger=0.0 contempt=0.01 disgust=0.0 fear=0.0 happiness=0.492 neutral=0.481 sadness=0.017 surprise=0.0 roll=0.5
+UY.HA3.139.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.5
+BF30HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.9
+BF09HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.3
+AM21HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.5
+AF10HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.3
+AF34HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.0
+AM19HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.8
+BM09HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.1
+BF35HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.1
+MK.HA1.116.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.2
+AF23HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.2
+BF31HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.3
+BM23HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.2
+BF28HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.4
+NA.HA1.202.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.985 neutral=0.015 sadness=0.0 surprise=0.0 roll=2.6
+YM.HA1.52.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.982 neutral=0.0 sadness=0.0 surprise=0.018 roll=1.9
+AM03HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.3
+MK.HA3.118.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.989 neutral=0.0 sadness=0.011 surprise=0.0 roll=2.9
+KL.HA1.158.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.5
+BM20HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.4
+BM06HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.5
+BM25HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.1
+BF06HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.6
+AM12HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.3
+BM02HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.999 neutral=0.001 sadness=0.0 surprise=0.0 roll=2.0
+AM27HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.997 neutral=0.003 sadness=0.0 surprise=0.0 roll=1.4
+TM.HA2.181.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.0
+BF10HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.99 neutral=0.01 sadness=0.0 surprise=0.0 roll=0.0
+KR.HA2.75.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.8
+BM15HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.999 neutral=0.0 sadness=0.0 surprise=0.001 roll=0.6
+BM11HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.999 neutral=0.0 sadness=0.001 surprise=0.0 roll=4.5
+KL.HA2.159.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.5
+AF15HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.1
+BM17HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=0.6
+AM17HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.972 neutral=0.0 sadness=0.0 surprise=0.027 roll=0.6
+AF16HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.999 neutral=0.0 sadness=0.0 surprise=0.001 roll=0.3
+AM18HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=1.3
+KM.HA1.4.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.0
+AF05HAS.JPG
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.98 neutral=0.019 sadness=0.0 surprise=0.0 roll=1.4
+BF18HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=3.8
+BF03HAS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=1.0 neutral=0.0 sadness=0.0 surprise=0.0 roll=2.0
+AM08HAS.JPG
+

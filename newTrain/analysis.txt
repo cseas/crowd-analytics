@@ -1,0 +1,2 @@
+neutral > 0.95
+angry > 0.002 (double zero)

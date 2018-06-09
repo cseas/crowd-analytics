@@ -1,0 +1,720 @@
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.516 sadness=0.484 surprise=0.0 
+1.jpg
+
+anger=0.0 contempt=0.279 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.715 sadness=0.005 surprise=0.0 
+16.jpeg
+
+anger=0.0 contempt=0.015 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.314 sadness=0.671 surprise=0.0 
+nch.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.002 sadness=0.0 surprise=0.998 
+BM21SUS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.002 neutral=0.718 sadness=0.28 surprise=0.0 
+Young-man-cant-wake-up.jpg
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.001 happiness=0.001 neutral=0.938 sadness=0.055 surprise=0.001 
+download (4).jpg
+
+anger=0.0 contempt=0.089 disgust=0.023 fear=0.0 happiness=0.0 neutral=0.084 sadness=0.804 surprise=0.0 
+bored-kid.jpg
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.821 sadness=0.175 surprise=0.0 
+BM33NES.JPG
+
+anger=0.0 contempt=0.016 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.968 sadness=0.015 surprise=0.0 
+13.jpeg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.997 sadness=0.001 surprise=0.0 
+76762917.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.981 sadness=0.019 surprise=0.0 
+76762917.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.925 sadness=0.075 surprise=0.0 
+76762917.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.487 sadness=0.512 surprise=0.0 
+sad-bored-young-couple-with-flour-on-their-faces-kneading-dough-on-G1MB6C.jpg
+
+anger=0.0 contempt=0.001 disgust=0.001 fear=0.0 happiness=0.003 neutral=0.869 sadness=0.126 surprise=0.0 
+sad-bored-young-couple-with-flour-on-their-faces-kneading-dough-on-G1MB6C.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.992 sadness=0.008 surprise=0.0 
+qut8.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.592 sadness=0.408 surprise=0.0 
+outt11.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.061 neutral=0.932 sadness=0.005 surprise=0.0 
+wut7.png
+
+anger=0.0 contempt=0.201 disgust=0.001 fear=0.0 happiness=0.012 neutral=0.364 sadness=0.421 surprise=0.0 
+out23.png
+
+anger=0.021 contempt=0.001 disgust=0.001 fear=0.0 happiness=0.0 neutral=0.973 sadness=0.004 surprise=0.0 
+ouut4.png
+
+anger=0.0 contempt=0.005 disgust=0.0 fear=0.001 happiness=0.0 neutral=0.899 sadness=0.003 surprise=0.092 
+BF12AFS.JPG
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.971 sadness=0.028 surprise=0.0 
+o-CELEBRITY-BITCH-FACE-facebook.jpg
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.955 sadness=0.041 surprise=0.001 
+eut8.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.87 sadness=0.129 surprise=0.0 
+AM30NES.JPG
+
+anger=0.0 contempt=0.005 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.981 sadness=0.013 surprise=0.0 
+17.jpeg
+
+anger=0.001 contempt=0.0 disgust=0.001 fear=0.0 happiness=0.359 neutral=0.034 sadness=0.001 surprise=0.605 
+download (1).jpg
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.365 sadness=0.632 surprise=0.0 
+images (4).jpg
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.985 sadness=0.013 surprise=0.0 
+11.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.878 sadness=0.121 surprise=0.0 
+images.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.06 sadness=0.939 surprise=0.0 
+bored-asian-woman-student-overworked-computer-young-pretty-chinese-tired-over-worked-her-laptop-wearing-black-shirt-white-39103934.jpg
+
+anger=0.055 contempt=0.002 disgust=0.007 fear=0.0 happiness=0.0 neutral=0.114 sadness=0.821 surprise=0.0 
+26.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.307 sadness=0.693 surprise=0.0 
+out19.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.007 neutral=0.991 sadness=0.001 surprise=0.0 
+ouyyt9.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.415 sadness=0.585 surprise=0.0 
+outt8.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.922 sadness=0.078 surprise=0.0 
+AF15NES.JPG
+
+anger=0.206 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.786 sadness=0.002 surprise=0.002 
+ouyuyyt13.png
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.816 sadness=0.181 surprise=0.0 
+images (6).jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.998 sadness=0.002 surprise=0.0 
+6x9HgMV9.jpg
+
+anger=0.002 contempt=0.002 disgust=0.003 fear=0.002 happiness=0.001 neutral=0.945 sadness=0.012 surprise=0.033 
+cce148b0ba8904b977cce3d13e0624df--sherlock-moriarty-sherlock-benedict.jpg
+
+anger=0.051 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.947 sadness=0.001 surprise=0.0 
+ouyuyyt5.png
+
+anger=0.002 contempt=0.002 disgust=0.002 fear=0.001 happiness=0.0 neutral=0.97 sadness=0.021 surprise=0.003 
+black-male-headshot-gunter-nezhoda.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.001 happiness=0.0 neutral=0.066 sadness=0.929 surprise=0.003 
+bored-teen-girl-sitting-making-faces-k-uhd-native-video-70198817.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.961 sadness=0.039 surprise=0.0 
+UY.FE2.153.tiff.png
+
+anger=0.32 contempt=0.018 disgust=0.001 fear=0.0 happiness=0.0 neutral=0.658 sadness=0.003 surprise=0.001 
+ouyuyyt12.png
+
+anger=0.0 contempt=0.004 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.891 sadness=0.105 surprise=0.0 
+AM05NES.JPG
+
+anger=0.431 contempt=0.01 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.555 sadness=0.002 surprise=0.002 
+ouyuyyt11.png
+
+anger=0.001 contempt=0.027 disgust=0.001 fear=0.002 happiness=0.001 neutral=0.7 sadness=0.267 surprise=0.002 
+student-resting-head-on-desk-in-classroom-143071599-5a6940c2ae9ab8001acfcdb9.jpg
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.013 neutral=0.984 sadness=0.0 surprise=0.0 
+student-resting-head-on-desk-in-classroom-143071599-5a6940c2ae9ab8001acfcdb9.jpg
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.08 neutral=0.917 sadness=0.0 surprise=0.0 
+student-resting-head-on-desk-in-classroom-143071599-5a6940c2ae9ab8001acfcdb9.jpg
+
+anger=0.366 contempt=0.014 disgust=0.001 fear=0.001 happiness=0.0 neutral=0.615 sadness=0.002 surprise=0.002 
+ouyuyyt10.png
+
+anger=0.0 contempt=0.047 disgust=0.001 fear=0.0 happiness=0.001 neutral=0.762 sadness=0.188 surprise=0.001 
+eut3.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.745 sadness=0.255 surprise=0.0 
+out6.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.994 sadness=0.006 surprise=0.0 
+19.jpg
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.973 sadness=0.024 surprise=0.0 
+obama-bored.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.391 sadness=0.609 surprise=0.0 
+outt7.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.515 sadness=0.485 surprise=0.0 
+outt4.png
+
+anger=0.001 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.902 sadness=0.007 surprise=0.09 
+ouyyt6.png
+
+anger=0.0 contempt=0.011 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.216 sadness=0.773 surprise=0.0 
+KA.DI1.42.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.5 sadness=0.5 surprise=0.0 
+outt14.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.825 sadness=0.174 surprise=0.0 
+32.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.219 sadness=0.781 surprise=0.0 
+out18.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.1 neutral=0.894 sadness=0.004 surprise=0.0 
+obama-bored1.jpg
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.033 neutral=0.963 sadness=0.002 surprise=0.0 
+10abe19aa702bc98e9b7f1d2e564e429--beards.jpg
+
+anger=0.0 contempt=0.036 disgust=0.0 fear=0.0 happiness=0.013 neutral=0.914 sadness=0.036 surprise=0.0 
+eut7.png
+
+anger=0.036 contempt=0.004 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.954 sadness=0.006 surprise=0.0 
+ouyuyyt4.png
+
+anger=0.0 contempt=0.008 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.981 sadness=0.011 surprise=0.0 
+out10.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.994 sadness=0.006 surprise=0.0 
+61358009-plan-rapproché-du-visage-ennuyé-aux-cheveux-longs-et-aux-yeux-bleus-au-fond-du-mur-de-briques.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.993 sadness=0.007 surprise=0.0 
+qut9.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.654 sadness=0.346 surprise=0.0 
+outt12.png
+
+anger=0.0 contempt=0.039 disgust=0.0 fear=0.0 happiness=0.003 neutral=0.894 sadness=0.063 surprise=0.0 
+download (5).jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.927 sadness=0.073 surprise=0.0 
+55-31155-mos-who27s-terrorist-sal-photo-1460545946.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.996 sadness=0.004 surprise=0.0 
+15.jpeg
+
+anger=0.002 contempt=0.129 disgust=0.002 fear=0.0 happiness=0.001 neutral=0.304 sadness=0.562 surprise=0.0 
+AM21AFS.JPG
+
+anger=0.0 contempt=0.014 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.907 sadness=0.079 surprise=0.0 
+KR.AN2.84.tiff.png
+
+anger=0.0 contempt=0.004 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.85 sadness=0.145 surprise=0.0 
+out8.png
+
+anger=0.0 contempt=0.009 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.697 sadness=0.294 surprise=0.0 
+index.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.835 sadness=0.164 surprise=0.0 
+download (6).jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.974 sadness=0.026 surprise=0.0 
+12.jpeg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.995 sadness=0.004 surprise=0.0 
+AM33NES.JPG
+
+anger=0.001 contempt=0.013 disgust=0.0 fear=0.0 happiness=0.019 neutral=0.876 sadness=0.092 surprise=0.0 
+30.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.992 sadness=0.007 surprise=0.0 
+AM21NES.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.998 sadness=0.002 surprise=0.0 
+9.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.3 sadness=0.0 surprise=0.7 
+9.jpeg
+
+anger=0.002 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.993 sadness=0.005 surprise=0.0 
+images (7).jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.488 sadness=0.512 surprise=0.0 
+25.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.945 sadness=0.055 surprise=0.0 
+UY.AN2.147.tiff.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.909 sadness=0.089 surprise=0.001 
+61807903-sleepy-man-with-beard-and-plaid-shirt-snores-with-his-eyes-closed-against-a-white-background.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.605 sadness=0.395 surprise=0.0 
+outt15.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.947 sadness=0.051 surprise=0.002 
+UY.FE3.154.tiff.png
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.952 sadness=0.045 surprise=0.001 
+eut6.png
+
+anger=0.41 contempt=0.006 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.582 sadness=0.001 surprise=0.001 
+ouyuyyt14.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.575 sadness=0.425 surprise=0.0 
+outt3.png
+
+anger=0.0 contempt=0.01 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.962 sadness=0.027 surprise=0.0 
+rut3.png
+
+anger=0.001 contempt=0.055 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.932 sadness=0.011 surprise=0.0 
+18.jpeg
+
+anger=0.0 contempt=0.026 disgust=0.0 fear=0.0 happiness=0.047 neutral=0.899 sadness=0.027 surprise=0.001 
+out1.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.968 sadness=0.031 surprise=0.0 
+images (3).jpg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.994 sadness=0.003 surprise=0.0 
+qut7.png
+
+anger=0.058 contempt=0.002 disgust=0.0 fear=0.001 happiness=0.0 neutral=0.93 sadness=0.007 surprise=0.002 
+ouyuyyt3.png
+
+anger=0.001 contempt=0.005 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.889 sadness=0.104 surprise=0.0 
+143916963.jpg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.861 sadness=0.137 surprise=0.0 
+AF10NES.JPG
+
+anger=0.02 contempt=0.011 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.96 sadness=0.009 surprise=0.0 
+ouut3.png
+
+anger=0.01 contempt=0.023 disgust=0.002 fear=0.0 happiness=0.001 neutral=0.905 sadness=0.059 surprise=0.0 
+6.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.988 sadness=0.012 surprise=0.0 
+000019_0026_M_NE_F.ppm.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.892 sadness=0.108 surprise=0.0 
+000001_0190_F_NE_F.ppm.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.851 sadness=0.149 surprise=0.0 
+download.jpeg
+
+anger=0.056 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.914 sadness=0.027 surprise=0.001 
+ouyuyyt15.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.814 sadness=0.185 surprise=0.0 
+13.jpg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.999 sadness=0.0 surprise=0.0 
+13.jpg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.626 sadness=0.37 surprise=0.001 
+5.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.991 sadness=0.009 surprise=0.0 
+20.jpeg
+
+anger=0.029 contempt=0.107 disgust=0.155 fear=0.003 happiness=0.002 neutral=0.198 sadness=0.505 surprise=0.0 
+wut2.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.996 sadness=0.003 surprise=0.001 
+unmotivated-lethargic-middle-aged-man-with-a-goatee-beard-looking-GT8AHK.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=1.0 sadness=0.0 surprise=0.0 
+17-signs-you-were-born-with-resting-sadface-2-21585-1422383665-22_dblbig.jpg
+
+anger=0.001 contempt=0.16 disgust=0.001 fear=0.0 happiness=0.004 neutral=0.731 sadness=0.102 surprise=0.0 
+27.jpeg
+
+anger=0.022 contempt=0.003 disgust=0.011 fear=0.004 happiness=0.0 neutral=0.916 sadness=0.015 surprise=0.029 
+ouyuyyt2.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.798 sadness=0.201 surprise=0.0 
+fe0abf4928dfc075429868e0f414392ce01a08e6_hq.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.999 sadness=0.001 surprise=0.0 
+Kayehasaneutralhairexpression.jpg
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.986 sadness=0.011 surprise=0.001 
+eut10.png
+
+anger=0.001 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.407 sadness=0.59 surprise=0.0 
+7.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.993 sadness=0.007 surprise=0.0 
+AF20NES.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.002 happiness=0.0 neutral=0.946 sadness=0.003 surprise=0.049 
+ouut1.png
+
+anger=0.006 contempt=0.007 disgust=0.001 fear=0.0 happiness=0.0 neutral=0.246 sadness=0.74 surprise=0.0 
+very-serious-look-5216614.jpg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.671 sadness=0.003 surprise=0.324 
+stand2.jpg
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.91 sadness=0.088 surprise=0.0 
+out4.png
+
+anger=0.001 contempt=0.348 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.567 sadness=0.084 surprise=0.0 
+index2.jpeg
+
+anger=0.081 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.909 sadness=0.008 surprise=0.001 
+ouyuyyt16.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.853 sadness=0.146 surprise=0.0 
+outt13.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.972 sadness=0.028 surprise=0.0 
+NM.AN3.106.tiff.png
+
+anger=0.658 contempt=0.0 disgust=0.006 fear=0.039 happiness=0.003 neutral=0.001 sadness=0.054 surprise=0.239 
+download (2).jpg
+
+anger=0.0 contempt=0.046 disgust=0.0 fear=0.0 happiness=0.02 neutral=0.924 sadness=0.009 surprise=0.0 
+6.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.003 neutral=0.95 sadness=0.046 surprise=0.0 
+images (1).jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.998 sadness=0.002 surprise=0.0 
+qut2.png
+
+anger=0.0 contempt=0.01 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.76 sadness=0.229 surprise=0.0 
+out15.png
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.942 sadness=0.055 surprise=0.0 
+001440_0013_F_BO_F.ppm.png
+
+anger=0.0 contempt=0.028 disgust=0.0 fear=0.0 happiness=0.005 neutral=0.823 sadness=0.143 surprise=0.0 
+eut2.png
+
+anger=0.0 contempt=0.134 disgust=0.001 fear=0.0 happiness=0.006 neutral=0.293 sadness=0.566 surprise=0.0 
+out22.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.031 sadness=0.968 surprise=0.0 
+images (2).jpg
+
+anger=0.888 contempt=0.0 disgust=0.009 fear=0.004 happiness=0.001 neutral=0.001 sadness=0.074 surprise=0.023 
+images (1).jpg
+
+anger=0.0 contempt=0.173 disgust=0.001 fear=0.0 happiness=0.005 neutral=0.425 sadness=0.396 surprise=0.0 
+out21.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.003 happiness=0.0 neutral=0.036 sadness=0.96 surprise=0.0 
+AF34AFS.JPG
+
+anger=0.0 contempt=0.128 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.4 sadness=0.471 surprise=0.0 
+stock-photo-businessman-with-bored-expression-111300356.jpg
+
+anger=0.0 contempt=0.141 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.832 sadness=0.026 surprise=0.0 
+download.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.633 sadness=0.367 surprise=0.0 
+525491805.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.923 sadness=0.076 surprise=0.0 
+3.jpeg
+
+anger=0.052 contempt=0.007 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.94 sadness=0.0 surprise=0.0 
+Nawaz-z.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.982 sadness=0.016 surprise=0.001 
+stock-photo-dozy-bearded-middle-aged-man-early-in-the-morning-standing-with-his-head-tilted-to-the-side-and-469706852.jpg
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.881 sadness=0.116 surprise=0.0 
+28.jpeg
+
+anger=0.0 contempt=0.1 disgust=0.0 fear=0.0 happiness=0.01 neutral=0.875 sadness=0.014 surprise=0.0 
+out12.png
+
+anger=0.003 contempt=0.004 disgust=0.002 fear=0.0 happiness=0.0 neutral=0.804 sadness=0.187 surprise=0.0 
+2.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.867 sadness=0.132 surprise=0.0 
+001455_0193_M_BO_F.ppm.png
+
+anger=0.006 contempt=0.003 disgust=0.005 fear=0.153 happiness=0.002 neutral=0.665 sadness=0.053 surprise=0.114 
+ouyyt7.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.18 sadness=0.82 surprise=0.0 
+boy-with-bored-expression-on-face-portrait-CWP0WG.jpg
+
+anger=0.152 contempt=0.0 disgust=0.001 fear=0.024 happiness=0.629 neutral=0.0 sadness=0.002 surprise=0.192 
+75993056-headshot-of-young-bored-black-man-yawning-isolated-on-light-background-facial-expressions-feelings-b.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.684 sadness=0.316 surprise=0.0 
+out17.png
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.012 neutral=0.982 sadness=0.003 surprise=0.0 
+rut11.png
+
+anger=0.0 contempt=0.157 disgust=0.0 fear=0.0 happiness=0.398 neutral=0.441 sadness=0.003 surprise=0.0 
+7e0dd7baa7758e6589c7511c4f8ebdb4--ginger-beard-facial-expressions.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.694 sadness=0.305 surprise=0.0 
+UY.FE1.152.tiff.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.886 sadness=0.114 surprise=0.0 
+56295e0a1400002b003c8f19.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.998 sadness=0.002 surprise=0.0 
+NM.AN2.105.tiff.png
+
+anger=0.0 contempt=0.047 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.737 sadness=0.215 surprise=0.0 
+out16.png
+
+anger=0.0 contempt=0.006 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.013 sadness=0.981 surprise=0.0 
+man_face_look_boredom_bored_dirtekt_t_shirt_eyes-1343973.jpg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.991 sadness=0.008 surprise=0.0 
+22.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=1.0 sadness=0.0 surprise=0.0 
+AF34NES.JPG
+
+anger=0.001 contempt=0.018 disgust=0.001 fear=0.0 happiness=0.001 neutral=0.489 sadness=0.49 surprise=0.0 
+KL.AN1.167.tiff.png
+
+anger=0.0 contempt=0.021 disgust=0.0 fear=0.002 happiness=0.003 neutral=0.912 sadness=0.061 surprise=0.001 
+21.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.589 sadness=0.411 surprise=0.0 
+outt2.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.513 sadness=0.487 surprise=0.0 
+outt9.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.811 sadness=0.188 surprise=0.0 
+AM32NES.JPG
+
+anger=0.275 contempt=0.0 disgust=0.013 fear=0.014 happiness=0.006 neutral=0.08 sadness=0.068 surprise=0.544 
+download (3).jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.995 sadness=0.004 surprise=0.0 
+Backcomb_16907531-c6a8-49f4-9b11-e61084825a02.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.894 sadness=0.106 surprise=0.0 
+rut1.png
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.867 sadness=0.129 surprise=0.001 
+AM20NES.JPG
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.891 sadness=0.107 surprise=0.0 
+BF31NES.JPG
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.866 sadness=0.133 surprise=0.0 
+9.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.223 sadness=0.776 surprise=0.0 
+BF04AFS.JPG
+
+anger=0.002 contempt=0.002 disgust=0.005 fear=0.001 happiness=0.0 neutral=0.658 sadness=0.014 surprise=0.317 
+AM02AFS.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.958 sadness=0.041 surprise=0.0 
+000034_0027_M_BO_F.ppm.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.006 happiness=0.0 neutral=0.825 sadness=0.005 surprise=0.164 
+AF12AFS.JPG
+
+anger=0.001 contempt=0.031 disgust=0.001 fear=0.0 happiness=0.001 neutral=0.791 sadness=0.174 surprise=0.001 
+out7.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.45 sadness=0.55 surprise=0.0 
+outt10.png
+
+anger=0.0 contempt=0.005 disgust=0.0 fear=0.0 happiness=0.005 neutral=0.852 sadness=0.138 surprise=0.0 
+images.jpg
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.665 sadness=0.332 surprise=0.0 
+out13.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.99 sadness=0.01 surprise=0.0 
+download (1).jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.905 sadness=0.094 surprise=0.0 
+sleeping-tired-man-at-work-portrait_b3ze2n3nmg_thumbnail-full07.png
+
+anger=0.001 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.992 sadness=0.006 surprise=0.0 
+ouut2.png
+
+anger=0.0 contempt=0.046 disgust=0.0 fear=0.0 happiness=0.002 neutral=0.656 sadness=0.296 surprise=0.0 
+11.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.999 sadness=0.001 surprise=0.0 
+11.jpeg
+
+anger=0.0 contempt=0.004 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.956 sadness=0.006 surprise=0.033 
+eut16.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.999 sadness=0.0 surprise=0.0 
+5.jpeg
+
+anger=0.001 contempt=0.13 disgust=0.001 fear=0.0 happiness=0.002 neutral=0.832 sadness=0.033 surprise=0.001 
+bored-woman-stock-image-3552270.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.009 neutral=0.99 sadness=0.0 surprise=0.0 
+qut18.png
+
+anger=0.323 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.673 sadness=0.001 surprise=0.001 
+ouyuyyt19.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.565 sadness=0.435 surprise=0.0 
+000004_0190_F_AN_F.ppm.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.585 sadness=0.001 surprise=0.414 
+ouyyt8.png
+
+anger=0.0 contempt=0.012 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.958 sadness=0.029 surprise=0.0 
+outt1.png
+
+anger=0.001 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.004 neutral=0.903 sadness=0.088 surprise=0.0 
+tut1.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.985 sadness=0.015 surprise=0.0 
+qut1.png
+
+anger=0.304 contempt=0.016 disgust=0.001 fear=0.0 happiness=0.0 neutral=0.665 sadness=0.013 surprise=0.001 
+ouyuyyt9.png
+
+anger=0.0 contempt=0.025 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.704 sadness=0.27 surprise=0.0 
+eut4.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.027 neutral=0.966 sadness=0.006 surprise=0.0 
+rut12.png
+
+anger=0.0 contempt=0.005 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.984 sadness=0.009 surprise=0.001 
+eut1.png
+
+anger=0.0 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.964 sadness=0.033 surprise=0.0 
+eut9.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.34 sadness=0.66 surprise=0.0 
+out20.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.969 sadness=0.031 surprise=0.0 
+001450_0193_M_NE_F.ppm.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.797 sadness=0.202 surprise=0.0 
+10.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.933 sadness=0.067 surprise=0.0 
+000006_0190_F_BO_F.ppm.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.823 sadness=0.177 surprise=0.0 
+download (7).jpg
+
+anger=0.0 contempt=0.399 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.592 sadness=0.009 surprise=0.0 
+index3.jpeg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.849 sadness=0.15 surprise=0.0 
+bored-in-the-dark-1435870.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.004 neutral=0.996 sadness=0.001 surprise=0.0 
+qut19.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.995 sadness=0.005 surprise=0.0 
+images4.jpeg
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.006 neutral=0.981 sadness=0.013 surprise=0.0 
+rut6.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.916 sadness=0.083 surprise=0.0 
+BF15NES.JPG
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.015 sadness=0.985 surprise=0.0 
+Bored-1.jpg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.01 neutral=0.983 sadness=0.006 surprise=0.0 
+rut10.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.995 sadness=0.003 surprise=0.001 
+qut6.png
+
+anger=0.101 contempt=0.001 disgust=0.0 fear=0.001 happiness=0.0 neutral=0.89 sadness=0.005 surprise=0.002 
+ouyuyyt8.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.566 sadness=0.434 surprise=0.0 
+outt5.png
+
+anger=0.001 contempt=0.03 disgust=0.002 fear=0.0 happiness=0.001 neutral=0.384 sadness=0.582 surprise=0.0 
+KL.AN2.168.tiff.png
+
+anger=0.0 contempt=0.004 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.806 sadness=0.189 surprise=0.0 
+out14.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.859 sadness=0.14 surprise=0.0 
+UY.AN1.146.tiff.png
+
+anger=0.0 contempt=0.006 disgust=0.0 fear=0.0 happiness=0.002 neutral=0.956 sadness=0.037 surprise=0.0 
+deb891ee24906866d9b7e9b487052384.jpg
+
+anger=0.052 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.945 sadness=0.001 surprise=0.001 
+ouyuyyt7.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.961 sadness=0.037 surprise=0.0 
+tut2.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.89 sadness=0.11 surprise=0.0 
+BM32NES.JPG
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.003 neutral=0.991 sadness=0.003 surprise=0.002 
+ouyyt2.png
+
+anger=0.0 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.997 sadness=0.001 surprise=0.0 
+rut7.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=1.0 sadness=0.0 surprise=0.0 
+NM.AN1.104.tiff.png
+
+anger=0.324 contempt=0.003 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.671 sadness=0.001 surprise=0.001 
+ouyuyyt17.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.001 neutral=0.99 sadness=0.001 surprise=0.007 
+23.jpeg
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.541 sadness=0.459 surprise=0.0 
+outt6.png
+
+anger=0.0 contempt=0.004 disgust=0.0 fear=0.001 happiness=0.0 neutral=0.931 sadness=0.064 surprise=0.001 
+BM27NES.JPG
+
+anger=0.016 contempt=0.009 disgust=0.0 fear=0.001 happiness=0.0 neutral=0.951 sadness=0.023 surprise=0.0 
+man-bored-expression-26178496.jpg
+
+anger=0.019 contempt=0.002 disgust=0.003 fear=0.004 happiness=0.0 neutral=0.944 sadness=0.009 surprise=0.02 
+ouyuyyt1.png
+
+anger=0.006 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.992 sadness=0.002 surprise=0.0 
+ouyuyyt6.png
+
+anger=0.0 contempt=0.001 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.807 sadness=0.192 surprise=0.0 
+BM30NES.JPG
+
+anger=0.291 contempt=0.002 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.704 sadness=0.002 surprise=0.0 
+ouyuyyt18.png
+
+anger=0.0 contempt=0.0 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.938 sadness=0.062 surprise=0.0 
+BF19NES.JPG
+
+anger=0.001 contempt=0.009 disgust=0.0 fear=0.001 happiness=0.003 neutral=0.965 sadness=0.018 surprise=0.001 
+out11.png
+
+anger=0.0 contempt=0.011 disgust=0.0 fear=0.0 happiness=0.014 neutral=0.973 sadness=0.002 surprise=0.0 
+out2.png
+
+anger=0.0 contempt=0.014 disgust=0.0 fear=0.0 happiness=0.0 neutral=0.405 sadness=0.58 surprise=0.0 
+7.jpg
+

@@ -17,8 +17,11 @@ else:
 # creating arrays to save in graphx and graphy text files
 graphXarr = np.empty((0, 1), int)
 graphYarr = np.empty((0, 1), int)
+
+open('test.txt','w')
 with open('test.txt','a') as myfile:
-    myfile.write("anger contempt disgust fear happiness neutral sadness surprise smile roll\n")
+    myfile.write("anger contempt disgust fear happiness neutral sadness surprise roll\n")
+
 # create queue to store video frames
 que = Queue()
 array_rec = []
@@ -137,8 +140,8 @@ def func(image_data):
             dic.insert(len(dic), i["faceAttributes"]["emotion"]["neutral"])
             dic.insert(len(dic), i["faceAttributes"]["emotion"]["sadness"])
             dic.insert(len(dic), i["faceAttributes"]["emotion"]["surprise"])
-            dic.insert(len(dic), i["faceAttributes"]["smile"])
-            dic.insert(len(dic), abs(i["faceAttributes"]["headPose"]["roll"]))
+            #dic.insert(len(dic), i["faceAttributes"]["smile"])
+            #dic.insert(len(dic), abs(i["faceAttributes"]["headPose"]["roll"]))
 
             myfile.write("contempt="+str(i["faceAttributes"]["emotion"]["contempt"])+"\t")
             myfile.write("disgust="+str(i["faceAttributes"]["emotion"]["disgust"])+"\t")
@@ -146,9 +149,9 @@ def func(image_data):
             myfile.write("happiness="+str(i["faceAttributes"]["emotion"]["happiness"])+"\t")
             myfile.write("neutral="+str(i["faceAttributes"]["emotion"]["neutral"])+"\t")
             myfile.write("sadness="+str(i["faceAttributes"]["emotion"]["sadness"])+"\t")
-            myfile.write("surprise="+str(i["faceAttributes"]["emotion"]["surprise"])+"\t")
-            myfile.write("smile="+str(i["faceAttributes"]["smile"])+"\n")
-            myfile.write("roll="+str(abs(i["faceAttributes"]["headPose"]["roll"]))+"\n")
+            myfile.write("surprise="+str(i["faceAttributes"]["emotion"]["surprise"])+"\n")
+            #myfile.write("smile="+str(i["faceAttributes"]["smile"])+"\n")
+            #myfile.write("roll="+str(abs(i["faceAttributes"]["headPose"]["roll"]))+"\n")
         
             diic.insert(len(diic), dic)
     print(diic)
@@ -208,7 +211,8 @@ while True:
             print("got diic")
 
             if (diic != []):
-                Yhat = clf.predict(np.array(diic))
+                Xhat = np.array(diic)
+                Yhat = clf.predict(Xhat)
 
                 # store number of people bored in graphyval temporarily and insert it to numpy array for every frame captured
                 graphyval = 0
@@ -224,7 +228,12 @@ while True:
                     rec = one["faceRectangle"]
 
                     # positive value of yhatf means that person can be categorised as bored
+                    # correct errors here using Xhat
                     yhatf = Yhat[count]
+
+                    if( (Xhat[count][5] > 0.85) and (Xhat[count][6] > 0.002) ):
+                        yhatf = 1 
+
                     w1 = rec["width"]
                     t1 = rec["top"]
                     h1 = rec["height"]

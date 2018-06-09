@@ -1,4 +1,4 @@
-import os
+import os, shutil
 import requests
 import numpy as np
 
@@ -21,8 +21,8 @@ X = np.empty((0, 8), float)
 y = np.empty((0, 1), float)
 
 
-test_folder_name = "bored"
-test_file = "bored.txt"
+test_folder_name = "happy"
+test_file = "happy.txt"
 
 # remove previous test file
 open(test_file,'w')
@@ -39,20 +39,19 @@ def analyse(fname,ara):
         myfile.write("neutral=" + str(ara[5]) + " ")
         myfile.write("sadness=" + str(ara[6]) + " ")
         myfile.write("surprise=" + str(ara[7]) + " ")
-        #myfile.write("roll=" + str(ara[8]))
+        myfile.write("roll=" + str(ara[8]))
         myfile.write("\n")
         myfile.write(str(fname)+"\n\n")
 
         # this is criteria for error
-        if(False):
+        if(ara[4] < 0.4):
         	shutil.move("/home/abhijeet/Documents/github/crowd-analytics/newTrain/" + test_folder_name + "/" + str(fname), 
         	"/home/abhijeet/Documents/github/crowd-analytics/newTrain/errors/" + str(fname))
 
 
 # dataset folder
-indir = '/home/abhijeet/Documents/github/crowd-analytics/algo/'
+indir = '/home/abhijeet/Documents/github/crowd-analytics/newTrain/'
 
-progress = 0
 for dirs,dirlist,filenames in os.walk("."):
     print(dirs)
 
@@ -69,7 +68,7 @@ for dirs,dirlist,filenames in os.walk("."):
             analysis = response.json()
 
             if analysis:
-                print("Face detected and done ", progress, "%, analysing", dirs, "currently")
+                print("Face detected\n")
 
             for i in analysis:
 
@@ -104,9 +103,6 @@ for dirs,dirlist,filenames in os.walk("."):
                     y = np.insert(y, len(y), 1)
                 else:
                     y = np.insert(y, len(y), -1)
-
-    # increment value = 100 / no. of directories
-    progress += 6.66
 
     #print(X)
     #print(y)
