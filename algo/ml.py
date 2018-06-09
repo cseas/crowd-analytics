@@ -227,12 +227,12 @@ while True:
                 for one in video:
                     rec = one["faceRectangle"]
 
+                    if( (Xhat[count][5] > 0.85) and (Xhat[count][6] > 0.002) ):
+                        Yhat[count] = 1
+
                     # positive value of yhatf means that person can be categorised as bored
                     # correct errors here using Xhat
                     yhatf = Yhat[count]
-
-                    if( (Xhat[count][5] > 0.85) and (Xhat[count][6] > 0.002) ):
-                        yhatf = 1 
 
                     w1 = rec["width"]
                     t1 = rec["top"]
