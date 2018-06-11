@@ -5,14 +5,29 @@ from sklearn import svm
 import cv2
 import time
 import threading
+import sys
+import urllib
+
 
 # check for Python version to decide which queue module to import
-import sys
 is_py2 = sys.version[0] == '2'
 if is_py2:
     from Queue import Queue
 else:
     from queue import Queue
+
+
+img11=urllib.request.urlopen('http://192.168.14.187:8080/shot.jpg')
+imgnp=np.array(bytearray(img11.read()),dtype=np.uint8)
+imgcv=cv2.imdecode(imgnp,-1)
+image_height, image_width, channels = imgcv.shape
+def getcvimg():
+    img11=urllib.request.urlopen('http://192.168.14.187:8080/shot.jpg')
+    imgnp=np.array(bytearray(img11.read()),dtype=np.uint8)
+    imgcv=cv2.imdecode(imgnp,-1)
+    #imgcv1 = cv2.resize(imgcv, (80, 24))
+
+    return imgcv
 
 # creating arrays to save in graphx and graphy text files
 graphXarr = np.empty((0, 1), int)
@@ -31,7 +46,8 @@ t1=-1
 l1=-1
 h1=-1
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture()
+#cap = cv2.VideoCapture(0) # for webcam
 exit = 0
 
 def waste_facerec(img , array_rec):
@@ -69,7 +85,7 @@ def writeframe(img):
         out.write(img)
 
 # function to increase opencv frame brightness
-def adjust_gamma(image, gamma=1.0):
+def adjust_gamma(image, gamma=2.0):
 
    invGamma = 1.0 / gamma
    table = np.array([((i / 255.0) ** invGamma) * 255
@@ -81,27 +97,23 @@ def showframe():
     global cap
 
     # set the width and height, and UNSUCCESSFULLY set the exposure time
-    cap.set(3, 1280)
-    cap.set(4, 1024)
+    cap.set(3, image_width)
+    cap.set(4, image_height)
     cap.set(15, 0.1)
 
     while True:
-        ret, img = cap.read()
-
-        img = cv2.flip(img, 1)
+        img = getcvimg();
+        #print(img)
+        #img = cv2.flip(img, 1)
 
         #increase brightness
-        gamma = 1.8
+        gamma = 2.7
         img = adjust_gamma(img, gamma=gamma)
 
 
         # frame show function
         # cv2.imshow("thresholded", imgray*thresh2)
-        winname = "Input"
-        cv2.namedWindow(winname)        # Create a named window
-        cv2.moveWindow(winname, 700,300)  # Move it to (40,30)
-        cv2.imshow(winname, img)
-
+        cv2.imshow("input", img)
         global que
         # print("size=", que.qsize())
         # writes image test.bmp to disk
@@ -109,9 +121,11 @@ def showframe():
 
         key = cv2.waitKey(10)
         if key == 27:  # Esc key
+            print("Escape key pressed")
             break
     cv2.destroyAllWindows()
-    cv2.VideoCapture(0).release()
+    cap.release()
+    #cv2.VideoCapture().release()
     print("finished camera")
     global exit
     exit = 1
@@ -130,13 +144,13 @@ def func(image_data):
     video = []
     for i in analysis:
         with open('test.txt','a') as myfile:
-
+            
             print(i)
             video.append({"faceRectangle":i["faceRectangle"]})
             dic = []
             dic.insert(len(dic), i["faceAttributes"]["emotion"]["anger"])
             myfile.write("anger="+str(i["faceAttributes"]["emotion"]["anger"])+"\t")
-
+        
             dic.insert(len(dic), i["faceAttributes"]["emotion"]["contempt"])
             dic.insert(len(dic), i["faceAttributes"]["emotion"]["disgust"])
             dic.insert(len(dic), i["faceAttributes"]["emotion"]["fear"])
@@ -156,10 +170,10 @@ def func(image_data):
             myfile.write("surprise="+str(i["faceAttributes"]["emotion"]["surprise"])+"\n")
             #myfile.write("smile="+str(i["faceAttributes"]["smile"])+"\n")
             #myfile.write("roll="+str(abs(i["faceAttributes"]["headPose"]["roll"]))+"\n")
-
+        
             diic.insert(len(diic), dic)
     print(diic)
-
+    
 
     return diic, video
 
@@ -184,16 +198,20 @@ clf.fit(X, y)
 thread1 = threading.Thread(target=showframe, args=())
 thread1.start()
 
-frame_width = int(cap.get(3))
-frame_height = int(cap.get(4))
+frame_width = image_width
+frame_height = image_height
+print("frame_width=",frame_width,"   ","frame_height=",frame_height)
 
 # Define the codec and create VideoWriter object.The output is stored in 'outpy.avi' file.
 out = cv2.VideoWriter('outpy.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (frame_width, frame_height))
 framecount=0
-
+let_enter = 0
 i=50
 while True:
-    if que.qsize() >= 16:
+    if que.qsize() >= 20 or let_enter == 1:
+        if que.qsize() <=1:
+            print("breaking")
+            break
         img = que.get()
 
         if not que.empty():
@@ -205,11 +223,12 @@ while True:
 
             cv2.imwrite("test.bmp", img)
 
+
             image_data = open("test.bmp", "rb").read()
 
             diic, video = func(image_data)
 
-            print("got diic")
+            print("dictionary acquired")
 
             if (diic != []):
                 Xhat = np.array(diic)
@@ -238,11 +257,10 @@ while True:
                     img = facerec(img)
                     count = count + 1
 
-
                 # store number of people bored in graphyval temporarily and insert it to numpy array for every frame captured
                 graphyval = 0
                 for i in Yhat:
-                    if i < 0:
+                    if i > 0:
                         graphyval += 1
                 # insert into numpy array
                 graphYarr = np.insert(graphYarr, len(graphYarr), graphyval)
@@ -255,8 +273,8 @@ while True:
 
             #cv2.rectangle(img, (50, 50), (50 + 50, 50 + 50), (255, 0, 0), 2)
 
-            if w1 != -1:
-                for cc in range(15):
+            if w1 != -1 and que.qsize() > 5:
+                for cc in range(1):
                     img = que.get()
                     waste_facerec(img,array_rec)
                     #writeframe(img)
@@ -265,9 +283,13 @@ while True:
 
     else:
         #print("queue is empty")
+        
         if exit == 1:
-            print("process finished")
-            break
+            print("exit=1")
+            let_enter = 1
+            if que.qsize() < 5:
+                print("process finished")
+                break
 
 thread1.join()
 out.release()

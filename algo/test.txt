@@ -1,101 +1,29 @@
 anger contempt disgust fear happiness neutral sadness surprise roll
-anger=0.0	contempt=0.005	disgust=0.0	fear=0.0	happiness=0.044	neutral=0.947	sadness=0.004	surprise=0.0
-bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=1.0	neutral=0.0	sadness=0.0	surprise=0.0
+anger=0.0	contempt=0.001	disgust=0.0	fear=0.0	happiness=0.001	neutral=0.998	sadness=0.0	surprise=0.001
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=1.0	neutral=0.0	sadness=0.0	surprise=0.0
+anger=0.001	contempt=0.023	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.972	sadness=0.0	surprise=0.004
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=1.0	neutral=0.0	sadness=0.0	surprise=0.0
+anger=0.001	contempt=0.014	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.969	sadness=0.001	surprise=0.015
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=1.0	neutral=0.0	sadness=0.0	surprise=0.0
+anger=0.001	contempt=0.002	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.981	sadness=0.0	surprise=0.016
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=1.0	neutral=0.0	sadness=0.0	surprise=0.0
+anger=0.0	contempt=0.001	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.974	sadness=0.0	surprise=0.024
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=1.0	neutral=0.0	sadness=0.0	surprise=0.0
+anger=0.001	contempt=0.002	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.972	sadness=0.0	surprise=0.025
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=1.0	neutral=0.0	sadness=0.0	surprise=0.0
+anger=0.0	contempt=0.015	disgust=0.0	fear=0.0	happiness=0.002	neutral=0.983	sadness=0.0	surprise=0.0
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=1.0	neutral=0.0	sadness=0.0	surprise=0.0
+anger=0.0	contempt=0.001	disgust=0.0	fear=0.0	happiness=0.001	neutral=0.997	sadness=0.0	surprise=0.001
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.999	neutral=0.0	sadness=0.0	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.997	neutral=0.003	sadness=0.0	surprise=0.0
-not bored
-anger=0.0	contempt=0.004	disgust=0.0	fear=0.0	happiness=0.11	neutral=0.885	sadness=0.0	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.998	sadness=0.002	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.998	sadness=0.002	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.985	sadness=0.014	surprise=0.0
-bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.994	sadness=0.006	surprise=0.0
-bored
-anger=0.0	contempt=0.001	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.995	sadness=0.002	surprise=0.0
-not bored
-anger=0.0	contempt=0.001	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.965	sadness=0.035	surprise=0.0
-bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.999	sadness=0.001	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.999	sadness=0.001	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.998	sadness=0.002	surprise=0.0
+anger=0.0	contempt=0.001	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.999	sadness=0.0	surprise=0.0
 not bored
 anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=1.0	sadness=0.0	surprise=0.0
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.998	sadness=0.001	surprise=0.0
+anger=0.0	contempt=0.004	disgust=0.0	fear=0.0	happiness=0.001	neutral=0.995	sadness=0.0	surprise=0.0
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.999	sadness=0.0	surprise=0.0
+anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.97	sadness=0.0	surprise=0.029
+anger=0.0	contempt=0.001	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.995	sadness=0.0	surprise=0.004
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=1.0	sadness=0.0	surprise=0.0
 not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.999	sadness=0.001	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.999	sadness=0.0	surprise=0.001
-not bored
-anger=0.454	contempt=0.001	disgust=0.002	fear=0.004	happiness=0.0	neutral=0.058	sadness=0.0	surprise=0.48
-not bored
-anger=0.928	contempt=0.001	disgust=0.005	fear=0.001	happiness=0.0	neutral=0.001	sadness=0.0	surprise=0.064
-not bored
-anger=0.045	contempt=0.0	disgust=0.0	fear=0.003	happiness=0.0	neutral=0.385	sadness=0.0	surprise=0.566
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.997	sadness=0.0	surprise=0.002
-not bored
-anger=0.001	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.998	sadness=0.0	surprise=0.0
-not bored
-anger=0.016	contempt=0.005	disgust=0.004	fear=0.0	happiness=0.002	neutral=0.971	sadness=0.001	surprise=0.001
-not bored
-anger=0.004	contempt=0.002	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.993	sadness=0.001	surprise=0.0
-not bored
-anger=0.02	contempt=0.016	disgust=0.007	fear=0.0	happiness=0.006	neutral=0.947	sadness=0.001	surprise=0.002
-not bored
-anger=0.034	contempt=0.006	disgust=0.005	fear=0.0	happiness=0.001	neutral=0.95	sadness=0.001	surprise=0.003
-not bored
-anger=0.012	contempt=0.004	disgust=0.001	fear=0.0	happiness=0.0	neutral=0.98	sadness=0.001	surprise=0.003
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.999	sadness=0.0	surprise=0.001
-not bored
-anger=0.011	contempt=0.002	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.986	sadness=0.002	surprise=0.0
-not bored
-anger=0.033	contempt=0.011	disgust=0.001	fear=0.0	happiness=0.0	neutral=0.951	sadness=0.004	surprise=0.0
-bored
-anger=0.066	contempt=0.009	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.919	sadness=0.005	surprise=0.001
-bored
-anger=0.011	contempt=0.004	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.981	sadness=0.003	surprise=0.0
-bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=1.0	sadness=0.0	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.999	sadness=0.001	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.996	sadness=0.004	surprise=0.0
-bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.95	sadness=0.05	surprise=0.0
-bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.993	sadness=0.007	surprise=0.0
-bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.995	sadness=0.005	surprise=0.0
-bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.998	sadness=0.002	surprise=0.0
-not bored
-anger=0.0	contempt=0.0	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.998	sadness=0.002	surprise=0.0
+anger=0.001	contempt=0.002	disgust=0.0	fear=0.0	happiness=0.0	neutral=0.994	sadness=0.0	surprise=0.003
 not bored
