@@ -1,0 +1,3 @@
+Check for yawn (Can be done with AWS or custom training for surprise)
+
+Training images stats:
