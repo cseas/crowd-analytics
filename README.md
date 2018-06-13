@@ -20,5 +20,5 @@ cd algo
 python3 main.py
 ```
 3. Press "Start Webcam" to start analysis using default laptop/PC camera. Press Esc key to stop recording. Wait for processing to finish.
-4. Press "Start Video" to see analysed video with blue boxed indicating interested subjected and red box indicating disengaged, sleepy or bored subjects.
+4. Press "Start Video" to see analysed video with blue boxes indicating interested subjected and red boxes indicating disengaged, sleepy or bored subjects.
 5. Press "Show Graph" to see a graph of interest level of people versus time.
