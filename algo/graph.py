@@ -10,10 +10,10 @@ x = np.loadtxt('graphx.txt', dtype=int)
 # convert epoch values to seconds
 temp = x[0]
 for i in range(len(x)):
-    print(i)
+    # print(i)
     x[i] -= temp
 
-#300 represents number of points to make between x.min() and x.max()
+# the number (eg. 300) represents number of points to make between x.min() and x.max()
 xnew = np.linspace(x.min(), x.max(), 50)
 ynew = spline(x, y, xnew)
 
